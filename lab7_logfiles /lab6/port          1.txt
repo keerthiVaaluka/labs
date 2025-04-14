@@ -1,0 +1,2 @@
+[60.00 ns ns] Name: pkt, Target: 1001, Source: 0010, Data: 18, PType: MULTICAST
+

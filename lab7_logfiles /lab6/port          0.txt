@@ -1,0 +1,2 @@
+[60.00 ns ns] Name: pkt, Target: 1111, Source: 0001, Data: 7b, PType: BROADCAST
+

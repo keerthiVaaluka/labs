@@ -1,0 +1,8 @@
+port2 interface monitor: packet OUT @130.00 ns
+Packet Details:
+Data: 53, Source: 0100, Target: 1111, PType: BROADCAST
+
+port2 interface monitor: packet OUT @210.00 ns
+Packet Details:
+Data: 7b, Source: 0001, Target: 1111, PType: BROADCAST
+

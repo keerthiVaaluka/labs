@@ -1,0 +1,12 @@
+port3 interface monitor: packet OUT @170.00 ns
+Packet Details:
+Data: 7b, Source: 0001, Target: 1111, PType: BROADCAST
+
+port3 interface monitor: packet OUT @210.00 ns
+Packet Details:
+Data: 18, Source: 0010, Target: 1001, PType: MULTICAST
+
+port3 interface monitor: packet OUT @250.00 ns
+Packet Details:
+Data: 53, Source: 0100, Target: 1111, PType: BROADCAST
+

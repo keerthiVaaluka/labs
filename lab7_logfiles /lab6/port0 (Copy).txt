@@ -1,0 +1,37 @@
+class monitor extends component_base;
+  
+  virtual port_if vif;  
+  packet pkt; 
+  int log_file;
+
+  function new(string name, component_base parent = null);
+    super.new(name, parent);
+  endfunction
+
+  task run();
+    $display("Monitor Path: %s", pathname());
+     log_file = $fopen($sformatf("port0.txt"), "w");
+        $display("hi");
+        if (!log_file) 
+            $fatal(1, "Error: Failed to open log file for port 0");
+        $display("Monitor for port 0 initialized. Logging to port0.log");
+
+    forever begin
+      //vif.collect_packet(pkt); 
+      //pkt.print();
+      vif.collect_packet(pkt);
+            //pkt.print();
+            $display("bye");
+            $display( "[%0t ns] Name: %s, Target: %b, Source: %b, Data: %h, PType: %s\n",
+                    $time, pkt.getname(), pkt.target, pkt.source, pkt.data, pkt.p);
+            // Write packet details to log file
+            $fdisplay(log_file, "[%0t ns] Name: %s, Target: %b, Source: %b, Data: %h, PType: %s\n",
+                    $time, pkt.getname(), pkt.target, pkt.source, pkt.data, pkt.p);
+                    
+        end
+           $fclose(log_file);
+    
+  endtask
+
+endclass
+

@@ -1,0 +1,144 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.2_1 2021.05, May 15 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/keerthi/Documents/LABS/lab2_rand
+T_opt
+!s110 1742286868
+VXVChRjFG90A]f<UfHg:2@2
+Z2 04 11 4 work packet_test fast 0
+=1-000ae431a4f1-67d93014-94baf-4f5d
+Z3 !s124 OEM100
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 tCvgOpt 0
+n@_opt
+Z6 OL;O;2021.2_1;73
+R1
+T_opt1
+!s110 1742290389
+VKThR9j:Ij>e2W92kLn3o22
+R2
+=1-000ae431a4f1-67d93dd4-e37fa-6b16
+R3
+R4
+R5
+n@_opt1
+R6
+Xpacket_data_sv_unit
+Z7 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z8 !s110 1742290388
+VW@XdiXB]:l;0P@iVJRD<h0
+r1
+!s85 0
+!i10b 1
+!s100 >F^BHW3PJRnm7`@;K]f`b0
+IW@XdiXB]:l;0P@iVJRD<h0
+!i103 1
+S1
+Z9 d/home/keerthi/Documents/LABS/lab3_static
+Z10 w1742290053
+8packet_data.sv
+Z11 Fpacket_data.sv
+!i122 20
+Z12 L0 1 0
+Z13 OL;L;2021.2_1;73
+31
+Z14 !s108 1742290388.000000
+Z15 !s107 packet_test.sv|packet_pkg.sv|packet_data.sv|
+Z16 !s90 packet_data.sv|packet_pkg.sv|packet_test.sv|
+!i113 0
+Z17 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+Xpacket_pkg
+R7
+R8
+!i10b 1
+!s100 <c<kLHOhdgNUa@@zVG<Vf1
+IWn<AZC?BK:OQ64K[zA`^?2
+S1
+R9
+R10
+8packet_pkg.sv
+Fpacket_pkg.sv
+R11
+!i122 20
+R12
+VWn<AZC?BK:OQ64K[zA`^?2
+R13
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 0
+R17
+R5
+vpacket_test
+R7
+Z18 DXx4 work 10 packet_pkg 0 22 Wn<AZC?BK:OQ64K[zA`^?2
+DXx4 work 19 packet_test_sv_unit 0 22 6>4e?JUVLLRQB<eA[WG1P1
+R8
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 6bXl:m_S4ITUCODiYPIAG0
+I7?jSZ=KYGP5o=>UX4aa_E2
+!s105 packet_test_sv_unit
+S1
+R9
+Z19 w1742290379
+Z20 8packet_test.sv
+Z21 Fpacket_test.sv
+!i122 20
+L0 3 51
+R13
+31
+R14
+R15
+R16
+!i113 0
+R17
+R5
+Xpacket_test_sv_unit
+R7
+R18
+R8
+V6>4e?JUVLLRQB<eA[WG1P1
+r1
+!s85 0
+!i10b 1
+!s100 R^^lgHGo56_HW8a4z:1Fa0
+I6>4e?JUVLLRQB<eA[WG1P1
+!i103 1
+S1
+R9
+R19
+R20
+R21
+!i122 20
+L0 2 0
+R13
+31
+R14
+R15
+R16
+!i113 0
+R17
+R5

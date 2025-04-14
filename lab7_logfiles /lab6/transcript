@@ -1,0 +1,117 @@
+# do run.do
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 15:32:15 on Mar 24,2025
+# vlog switch_port.sv port_if.sv packet_pkg.sv switch_test.sv 
+# -- Compiling module switch_port
+# -- Compiling interface port_if
+# -- Importing package packet_pkg
+# -- Compiling package packet_pkg
+# ** Warning: sequencer.sv(15): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: sequencer.sv(20): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: sequencer.sv(25): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:32:15 on Mar 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" -c top 
+# Start time: 15:32:16 on Mar 24,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# //  Questa Sim-64
+# //  Version 2021.2_1 linux_x86_64 May 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.port_if(fast)
+# Loading work.packet_pkg(fast)
+# Loading work.top(fast)
+# Loading work.port_if(fast__2)
+# Loading work.port_if(fast__3)
+# Loading work.port_if(fast__4)
+# Loading work.port_if(fast__5)
+# Loading work.switch_port(fast)
+# MONITOR started for port 0
+# MONITOR started for port 1
+# MONITOR started for port 2
+# MONITOR started for port 3
+# hi
+# Monitor for port 0 initialized. Logging to port          0.log
+# hi
+# Monitor for port 1 initialized. Logging to port          1.log
+# hi
+# Monitor for port 2 initialized. Logging to port          2.log
+# hi
+# Monitor for port 3 initialized. Logging to port          3.log
+# Packet VC Path: pvc1
+# Driver Path: pvc1.agt.drv
+# Sequencer Path from Driver: pvc1.agt.seq
+# Name:p_broad, Target:f, Source:1, Data:7b, PType:BROADCAST
+# Monitor started for port.
+# Packet VC Path: pvc2
+# Driver Path: pvc2.agt.drv
+# Sequencer Path from Driver: pvc2.agt.seq
+# Name:p_multi, Target:9, Source:2, Data:18, PType:MULTICAST
+# Monitor started for port.
+# Packet VC Path: pvc3
+# Driver Path: pvc3.agt.drv
+# Sequencer Path from Driver: pvc3.agt.seq
+# Name:p_broad, Target:f, Source:4, Data:53, PType:BROADCAST
+# Monitor started for port.
+# Packet VC Path: pvc4
+# Driver Path: pvc4.agt.drv
+# Sequencer Path from Driver: pvc4.agt.seq
+# Name:p_single, Target:1, Source:8, Data:92, PType:SINGLE
+# Monitor started for port.
+# hi-----------------------------------------------------------------------
+# bye
+# [60.00 ns ns] Name: pkt, Target: 1111, Source: 0001, Data: 7b, PType: BROADCAST
+# 
+# hi-----------------------------------------------------------------------
+# bye
+# [60.00 ns ns] Name: pkt, Target: 1001, Source: 0010, Data: 18, PType: MULTICAST
+# 
+# hi-----------------------------------------------------------------------
+# bye
+# [60.00 ns ns] Name: pkt, Target: 1111, Source: 0100, Data: 53, PType: BROADCAST
+# 
+# hi-----------------------------------------------------------------------
+# bye
+# [60.00 ns ns] Name: pkt, Target: 0001, Source: 1000, Data: 92, PType: SINGLE
+# 
+# port2 interface monitor: packet OUT @130.00 ns
+# Name:pkt, Target:f, Source:4, Data:53, PType:BROADCAST
+# port0 interface monitor: packet OUT @130.00 ns
+# Name:pkt, Target:f, Source:1, Data:7b, PType:BROADCAST
+# port0 interface monitor: packet OUT @170.00 ns
+# Name:pkt, Target:9, Source:2, Data:18, PType:MULTICAST
+# port3 interface monitor: packet OUT @170.00 ns
+# Name:pkt, Target:f, Source:1, Data:7b, PType:BROADCAST
+# port1 interface monitor: packet OUT @170.00 ns
+# Name:pkt, Target:f, Source:4, Data:53, PType:BROADCAST
+# port0 interface monitor: packet OUT @210.00 ns
+# Name:pkt, Target:f, Source:4, Data:53, PType:BROADCAST
+# port3 interface monitor: packet OUT @210.00 ns
+# Name:pkt, Target:9, Source:2, Data:18, PType:MULTICAST
+# port2 interface monitor: packet OUT @210.00 ns
+# Name:pkt, Target:f, Source:1, Data:7b, PType:BROADCAST
+# port0 interface monitor: packet OUT @250.00 ns
+# Name:pkt, Target:1, Source:8, Data:92, PType:SINGLE
+# port3 interface monitor: packet OUT @250.00 ns
+# Name:pkt, Target:f, Source:4, Data:53, PType:BROADCAST
+# port1 interface monitor: packet OUT @250.00 ns
+# Name:pkt, Target:f, Source:1, Data:7b, PType:BROADCAST
+# ** Note: $finish    : switch_test.sv(61)
+#    Time: 1120 ns  Iteration: 0  Instance: /top
+# End time: 15:32:18 on Mar 24,2025, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0

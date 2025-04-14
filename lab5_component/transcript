@@ -1,0 +1,49 @@
+# do run.do
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 15:02:06 on Mar 19,2025
+# vlog packet_data.sv packet_pkg.sv packet_test.sv 
+# -- Compiling package packet_data_sv_unit
+# -- Compiling package packet_pkg
+# ** Warning: packet_vc.sv(8): (vlog-2240) Treating stand-alone use of function 'run' as an implicit VOID cast.
+# ** Warning: packet_vc.sv(9): (vlog-2240) Treating stand-alone use of function 'run' as an implicit VOID cast.
+# -- Compiling package packet_test_sv_unit
+# -- Importing package packet_pkg
+# -- Compiling module packet_test
+# ** Warning: packet_test.sv(50): (vlog-2240) Treating stand-alone use of function 'run' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	packet_test
+# End time: 15:02:06 on Mar 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" packet_test 
+# Start time: 15:02:06 on Mar 19,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: packet_vc.sv(8): (vopt-2240) Treating stand-alone use of function 'run' as an implicit VOID cast.
+# ** Warning: packet_vc.sv(9): (vopt-2240) Treating stand-alone use of function 'run' as an implicit VOID cast.
+# ** Warning: packet_data.sv(30): (vopt-2250) Function "print" has no return value assignment.
+# ** Warning: component_base.sv(16): (vopt-2250) Function "print" has no return value assignment.
+# ** Warning: moniter.sv(6): (vopt-2250) Function "run" has no return value assignment.
+# ** Warning: driver.sv(9): (vopt-2250) Function "run" has no return value assignment.
+# ** Warning: packet_vc.sv(7): (vopt-2250) Function "run" has no return value assignment.
+# ** Warning: packet_test.sv(50): (vopt-2240) Treating stand-alone use of function 'run' as an implicit VOID cast.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=8.
+# //  Questa Sim-64
+# //  Version 2021.2_1 linux_x86_64 May 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.packet_pkg(fast)
+# Loading work.packet_test_sv_unit(fast)
+# Loading work.packet_test(fast)
+# pathname:test.ag.dv
+# pathname:test.ag.mn

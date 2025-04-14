@@ -1,0 +1,77 @@
+# //  Questa Sim-64
+# //  Version 2021.2_1 linux_x86_64 May 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 14:04:28 on Mar 18,2025
+# vlog -reportprogress 300 packet_data.sv packet_pkg.sv packet_test.sv 
+# -- Compiling package packet_data_sv_unit
+# -- Compiling package packet_pkg
+# -- Compiling package packet_test_sv_unit
+# -- Importing package packet_pkg
+# -- Compiling module packet_test
+# ** Warning: packet_test.sv(10): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: packet_test.sv(13): (vlog-2240) Treating stand-alone use of function 'print' as an implicit VOID cast.
+# ** Warning: packet_test.sv(14): (vlog-2240) Treating stand-alone use of function 'print' as an implicit VOID cast.
+# ** Warning: packet_test.sv(15): (vlog-2240) Treating stand-alone use of function 'print' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	packet_test
+# End time: 14:04:28 on Mar 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+# vsim -voptargs="+acc" packet_test 
+# Start time: 14:04:28 on Mar 18,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: packet_data.sv(30): (vopt-2250) Function "print" has no return value assignment.
+# ** Warning: packet_test.sv(10): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: packet_test.sv(13): (vopt-2240) Treating stand-alone use of function 'print' as an implicit VOID cast.
+# ** Warning: packet_test.sv(14): (vopt-2240) Treating stand-alone use of function 'print' as an implicit VOID cast.
+# ** Warning: packet_test.sv(15): (vopt-2240) Treating stand-alone use of function 'print' as an implicit VOID cast.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=5.
+# Loading sv_std.std
+# Loading work.packet_pkg(fast)
+# Loading work.packet_test_sv_unit(fast)
+# Loading work.packet_test(fast)
+#  name: keerthi_pack		source: 2	target:f	data:50	ptype:BROADCAST
+#  name: keerthi_pack	source: 2	target:15	data:80	ptype:BROADCAST
+#  name: keerthi_pack		source: 10	target:1111	data:1010000	ptype:BROADCAST
+#  name: keerthi_pack		source: 2	target:f	data:27	ptype:ANY
+#  name: keerthi_pack	source: 2	target:15	data:39	ptype:ANY
+#  name: keerthi_pack		source: 10	target:1111	data:100111	ptype:ANY
+#  name: keerthi_pack		source: 2	target:f	data:18	ptype:ANY
+#  name: keerthi_pack	source: 2	target:15	data:24	ptype:ANY
+#  name: keerthi_pack		source: 10	target:1111	data:11000	ptype:ANY
+#  name: keerthi_pack		source: 2	target:f	data:4d	ptype:ANY
+#  name: keerthi_pack	source: 2	target:15	data:77	ptype:ANY
+#  name: keerthi_pack		source: 10	target:1111	data:1001101	ptype:ANY
+#  name: keerthi_pack		source: 2	target:f	data:7e	ptype:BROADCAST
+#  name: keerthi_pack	source: 2	target:15	data:126	ptype:BROADCAST
+#  name: keerthi_pack		source: 10	target:1111	data:1111110	ptype:BROADCAST
+#  name: keerthi_pack		source: 2	target:f	data:7d	ptype:ANY
+#  name: keerthi_pack	source: 2	target:15	data:125	ptype:ANY
+#  name: keerthi_pack		source: 10	target:1111	data:1111101	ptype:ANY
+#  name: keerthi_pack		source: 2	target:f	data:29	ptype:BROADCAST
+#  name: keerthi_pack	source: 2	target:15	data:41	ptype:BROADCAST
+#  name: keerthi_pack		source: 10	target:1111	data:101001	ptype:BROADCAST
+#  name: keerthi_pack		source: 2	target:f	data:97	ptype:BROADCAST
+#  name: keerthi_pack	source: 2	target:15	data:151	ptype:BROADCAST
+#  name: keerthi_pack		source: 10	target:1111	data:10010111	ptype:BROADCAST
+#  name: keerthi_pack		source: 2	target:f	data:65	ptype:ANY
+#  name: keerthi_pack	source: 2	target:15	data:101	ptype:ANY
+#  name: keerthi_pack		source: 10	target:1111	data:1100101	ptype:ANY
+#  name: keerthi_pack		source: 2	target:f	data:87	ptype:ANY
+#  name: keerthi_pack	source: 2	target:15	data:135	ptype:ANY
+#  name: keerthi_pack		source: 10	target:1111	data:10000111	ptype:ANY
+# End time: 14:05:04 on Mar 18,2025, Elapsed time: 0:00:36
+# Errors: 0, Warnings: 5
